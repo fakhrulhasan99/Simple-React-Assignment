@@ -1,5 +1,6 @@
 
 import './App.css'
+import ActiveAuctions from './assets/Components/Active-Auctions/ActiveAuctions'
 import Banner from './assets/Components/Banner/Banner'
 import Navbar from './assets/Components/Navbar/Navbar'
 
@@ -9,6 +10,7 @@ function App() {
     <>
       <Navbar></Navbar>
       <Banner></Banner>
+      <ActiveAuctions></ActiveAuctions>
     </>
   )
 }
